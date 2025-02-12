@@ -45,9 +45,11 @@ import linkedin from './linkedin.png';
 import linkedin_dark from './linkedin_dark.png';
 import leetcode from './leetcode.png'
 import leetcode_dark from './leetcode_yellow.png';
+import about_me_image from './about_me.png';
 
 export const assets = {
     user_image,
+    about_me_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -109,28 +111,28 @@ export const workData = [
         description: 'An Expense Tracker app for managing finances with categorized expense tracking and a seamless interface.',
         github: 'https://github.com/kvamsid/Expense-Tracker-App-using-Spring-Boot',
         techStack: ['Java','SpringBoot','REST API','MySQL'],
-        Live: '/work-2.png',
+
     },
+    {
+      title: 'Scalable Face Recognition System on AWS',
+      description: 'A cloud-native face recognition app on AWS with scalable architecture, leveraging PyTorch, EC2, S3, and SQS.',
+      github: 'https://github.com/kvamsid/Scalable-Multi-Tier-Face-Recognition-System-on-AWS',
+      techStack: ['Python','Boto3','AWS EC2','AWS S3','AWS SQS','AWS IAM'],
+      
+    },  
     {
         title: 'Full-Stack E-commerce App',
         description: 'A full-stack e-commerce app with React, Spring Boot REST APIs, and H2 database for a seamless shopping experience.',
         github: 'https://github.com/kvamsid/E-Commerce-using-SpringBoot',
         techStack: ['Java','SpringBoot','REST API','MySQL','React', 'Vite','Tailwind CSS'],
-        Live: '/work-3.png',
+        
     },
     {
         title: 'Appearance Transfer using LLMs',
         description: 'Appearance Transfer synthesizes images by balancing textual semantics with visual styles using the Kandinsky model and an LLM agent.',
         github: 'https://github.com/kvamsid/Appearance-Transfer-using-LLMs',
         techStack: ['LLMs','CLIP','Kandinsky','Stable Diffusion'],
-        Live: '/work-3.png',
-    },
-    {
-        title: 'Scalable Face Recognition System on AWS',
-        description: 'A cloud-native face recognition app on AWS with scalable architecture, leveraging PyTorch, EC2, S3, and SQS.',
-        github: 'https://github.com/kvamsid/Scalable-Multi-Tier-Face-Recognition-System-on-AWS',
-        techStack: ['Python','Boto3','AWS EC2','AWS S3','AWS SQS','AWS IAM'],
-        Live: '/work-4.png',
+        
     },
     {
         title: 'AxiSketcher - an axis mapping tool',
@@ -144,21 +146,21 @@ export const workData = [
         description: 'A Spring Boot banking app for managing accounts, transactions, and fund transfers efficiently.',
         github: 'https://github.com/kvamsid/Banking_Application_using_SpringBoot',
         techStack: ['Java','SpringBoot','REST API','MySQL'],
-        Live: '/work-2.png',
+        
     },
     {
         title: 'Serverless Face Recognition Systen using AWS Lambda',
         description: 'A serverless AWS-based face recognition platform that processes video uploads with scalable, event-driven architecture.',
         github: 'https://github.com/kvamsid/Serverless-Face-Recognition-System-using-AWS-Lambda',
         techStack: ['Python','Boto3','AWS Lambda','AWS S3','AWS IAM'],
-        Live: '/work-1.png',
+        
     },
     {
         title: 'Feedback App using React',
         description: 'Mobile App',
         github: 'https://github.com/kvamsid/Feedback-App-using-React',
         techStack: ['React','Tailwind CSS'],
-        Live: '/work-2.png',
+        
     }
 ]
 

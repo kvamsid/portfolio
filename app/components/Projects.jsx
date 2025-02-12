@@ -81,17 +81,19 @@ const Projects = ({isDarkMode}) => {
                         />
                     </a>
                     {/* Live Demo Link */}
-                    <a 
-                    href={project.Live} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    >
-                        <Image 
-                        src={isDarkMode ? assets.website_dark : assets.website} 
-                        alt='' 
-                        className="w-10"
-                        />
-                    </a>
+                    {project.Live && (
+                        <a 
+                            href={project.Live} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <Image 
+                                src={isDarkMode ? assets.website_dark : assets.website} 
+                                alt='' 
+                                className="w-10"
+                            />
+                        </a>
+                    )}
                 </div>
             </div>
         </motion.div>
