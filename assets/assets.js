@@ -157,9 +157,10 @@ export const workData = [
     },
     {
         title: 'Feedback App using React',
-        description: 'Mobile App',
+        description: 'This application is designed to collect user feedback through an intuitive interface. Users can rate their experience and provide comments, which are then displayed in a list format.',
         github: 'https://github.com/kvamsid/Feedback-App-using-React',
         techStack: ['React','Tailwind CSS'],
+        Live: 'https://feedback-app-using-react-three.vercel.app/',
         
     }
 ]
