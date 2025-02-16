@@ -100,17 +100,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Job Posting Website with React and Vite',
-        description: 'A job listing app built with React, Vite, and Tailwind, featuring CRUD operations and mock API integration with JSON Server.',
-        github: 'https://github.com/kvamsid/Job-Posting-Website-with-React-and-Vite',
-        techStack: ['React', 'Vite','Tailwind CSS'],
-        Live: 'https://job-posting-website-with-react-and-vite.vercel.app/',
-    },
-    {
-        title: 'Expense Tracker App using Spring Boot',
-        description: 'An Expense Tracker app for managing finances with categorized expense tracking and a seamless interface.',
-        github: 'https://github.com/kvamsid/Expense-Tracker-App-using-Spring-Boot',
-        techStack: ['Java','SpringBoot','REST API','MySQL'],
+        title: 'Todo Management – Securing REST APIs with Role-Based Authorization',
+        description: 'This Spring Boot-based REST service manages todos with secure CRUD operations, role-based access control, and JWT authentication.',
+        github: 'https://github.com/kvamsid/Todo-Management-Securing-REST-APIs-with-Role-Based-Authorization',
+        techStack: ['Java','SpringBoot','Spring Security', 'JSON Web Token','REST API','MySQL'],
 
     },
     {
@@ -128,6 +121,13 @@ export const workData = [
         
     },
     {
+      title: 'Job Posting Website with React and Vite',
+      description: 'A job listing app built with React, Vite, and Tailwind, featuring CRUD operations and mock API integration with JSON Server.',
+      github: 'https://github.com/kvamsid/Job-Posting-Website-with-React-and-Vite',
+      techStack: ['React', 'Vite','Tailwind CSS'],
+      Live: 'https://job-posting-website-with-react-and-vite.vercel.app/',
+    },
+    {
         title: 'Appearance Transfer using LLMs',
         description: 'Appearance Transfer synthesizes images by balancing textual semantics with visual styles using the Kandinsky model and an LLM agent.',
         github: 'https://github.com/kvamsid/Appearance-Transfer-using-LLMs',
@@ -142,28 +142,33 @@ export const workData = [
         Live: 'https://kvamsid.github.io/AxiSketcher/',
     },
     {
-        title: 'Banking Application',
-        description: 'A Spring Boot banking app for managing accounts, transactions, and fund transfers efficiently.',
-        github: 'https://github.com/kvamsid/Banking_Application_using_SpringBoot',
-        techStack: ['Java','SpringBoot','REST API','MySQL'],
-        
+      title: 'Feedback App using React',
+      description: 'This application is designed to collect user feedback through an intuitive interface. Users can rate their experience and provide comments, which are then displayed in a list format.',
+      github: 'https://github.com/kvamsid/Feedback-App-using-React',
+      techStack: ['React','Tailwind CSS'],
+      Live: 'https://feedback-app-using-react-three.vercel.app/', 
     },
     {
-        title: 'Serverless Face Recognition Systen using AWS Lambda',
-        description: 'A serverless AWS-based face recognition platform that processes video uploads with scalable, event-driven architecture.',
-        github: 'https://github.com/kvamsid/Serverless-Face-Recognition-System-using-AWS-Lambda',
-        techStack: ['Python','Boto3','AWS Lambda','AWS S3','AWS IAM'],
-        
+      title: 'Banking Application',
+      description: 'A Spring Boot banking app for managing accounts, transactions, and fund transfers efficiently.',
+      github: 'https://github.com/kvamsid/Banking_Application_using_SpringBoot',
+      techStack: ['Java','SpringBoot','REST API','MySQL'],
+      
     },
     {
-        title: 'Feedback App using React',
-        description: 'This application is designed to collect user feedback through an intuitive interface. Users can rate their experience and provide comments, which are then displayed in a list format.',
-        github: 'https://github.com/kvamsid/Feedback-App-using-React',
-        techStack: ['React','Tailwind CSS'],
-        Live: 'https://feedback-app-using-react-three.vercel.app/',
-        
-        
-    }
+      title: 'Expense Tracker App using Spring Boot',
+      description: 'An Expense Tracker app for managing finances with categorized expense tracking and a seamless interface.',
+      github: 'https://github.com/kvamsid/Expense-Tracker-App-using-Spring-Boot',
+      techStack: ['Java','SpringBoot','REST API','MySQL'],
+
+    },
+    {
+      title: 'Serverless Face Recognition Systen using AWS Lambda',
+      description: 'A serverless AWS-based face recognition platform that processes video uploads with scalable, event-driven architecture.',
+      github: 'https://github.com/kvamsid/Serverless-Face-Recognition-System-using-AWS-Lambda',
+      techStack: ['Python','Boto3','AWS Lambda','AWS S3','AWS IAM'],
+      
+    },
 ]
 
 

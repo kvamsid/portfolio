@@ -17,7 +17,7 @@ export default function Home() {
     if(localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').macthes)){
       setIsDarkMode(true);
     }else{
-      setIsDarkMode(false);
+      setIsDarkMode(true);
     }
   },[])
   useEffect(()=>{
