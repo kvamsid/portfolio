@@ -120,6 +120,7 @@ export const workData = [
         techStack: ['Java','SpringBoot','REST API','MySQL','React', 'Vite','Tailwind CSS'],
         
     },
+    
     {
       title: 'Job Posting Website with React and Vite',
       description: 'A job listing app built with React, Vite, and Tailwind, featuring CRUD operations and mock API integration with JSON Server.',
