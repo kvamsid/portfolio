@@ -5,19 +5,14 @@ import React from 'react'
 
 const ExperiencePage = ({ isDarkMode }) => {
   return (
-    <div className="max-w-4xl mx-auto py-16 px-6" id = 'experience'>
+    <div className="max-w-4xl mx-auto py-16 px-6 scroll-mt-20" id = 'experience'>
       {/* Section Title */}
-      <motion.h2 
-        initial={{ opacity: 0, y: -20 }} 
-        whileInView={{ opacity: 1, y: 0 }} 
-        transition={{ duration: 0.6 }} 
-        className="mt-20 text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white font-Ovo"
-      >
-        Career Journey
+      <motion.h2 initial={{opacity: 0, y:-20}} whileInView={{opacity: 1, y:0}} transition={{duration:0.5, delay:0.5}} className = 'text-center text-5xl font-Ovo'>
+      Career Journey
       </motion.h2>
 
       {/* Experience Cards */}
-      <div className="space-y-8">
+      <div className="space-y-8 mt-5">
         {experienceInfo.map((exp, index) => (
           <motion.div 
             key={index} 
