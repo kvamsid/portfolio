@@ -110,30 +110,29 @@ export const workData = [
       title: 'Scalable Face Recognition System on AWS',
       description: 'A cloud-native face recognition app on AWS with scalable architecture, leveraging PyTorch, EC2, S3, and SQS.',
       github: 'https://github.com/kvamsid/Scalable-Multi-Tier-Face-Recognition-System-on-AWS',
-      techStack: ['Python','Boto3','AWS EC2','AWS S3','AWS SQS','AWS IAM'],
+      techStack: ['Python','Flask','Boto3','AWS EC2','AWS S3','AWS SQS'],
       
     },  
     {
-        title: 'Full-Stack E-commerce App',
-        description: 'A full-stack e-commerce app with React, Spring Boot REST APIs, and H2 database for a seamless shopping experience.',
-        github: 'https://github.com/kvamsid/E-Commerce-using-SpringBoot',
-        techStack: ['Java','SpringBoot','REST API','MySQL','React', 'Vite','Tailwind CSS'],
-        
-    },
-    
-    {
-      title: 'Job Posting Website with React and Vite',
-      description: 'A job listing app built with React, Vite, and Tailwind, featuring CRUD operations and mock API integration with JSON Server.',
-      github: 'https://github.com/kvamsid/Job-Posting-Website-with-React-and-Vite',
-      techStack: ['React', 'Vite','Tailwind CSS'],
-      Live: 'https://job-posting-website-with-react-and-vite.vercel.app/',
+      title: 'Github-Finder Tool',
+      description: 'A responsive React app that uses GitHub APIs to search and display user profiles, including bios, repository stats, and top repositories. Built with Context API, reducers, TailwindCSS, and DaisyUI.',
+      github: 'https://github.com/kvamsid/github-finder',
+      techStack: ['React', 'Vite','Tailwind CSS', 'Daisy UI'],
+      Live: 'https://github-finder-app-one-livid.vercel.app/',
     },
     {
         title: 'Appearance Transfer using LLMs',
         description: 'Appearance Transfer synthesizes images by balancing textual semantics with visual styles using the Kandinsky model and an LLM agent.',
         github: 'https://github.com/kvamsid/Appearance-Transfer-using-LLMs',
-        techStack: ['LLMs','CLIP','Kandinsky','Stable Diffusion'],
+        techStack: ['LLMs','CLIP','Kandinsky','Stable Diffusion', 'Python', 'Flask'],
         
+    },
+    {
+      title: 'Full-Stack E-commerce App',
+      description: 'A full-stack e-commerce app with React, Spring Boot REST APIs, and H2 database for a seamless shopping experience.',
+      github: 'https://github.com/kvamsid/E-Commerce-using-SpringBoot',
+      techStack: ['Java','SpringBoot','REST API','MySQL','React', 'Vite','Tailwind CSS'],
+      
     },
     {
         title: 'AxiSketcher - an axis mapping tool',
@@ -141,6 +140,13 @@ export const workData = [
         github: 'https://github.com/kvamsid/AxiSketcher',
         techStack: ['JavaScript','D3.js','HTML'],
         Live: 'https://kvamsid.github.io/AxiSketcher/',
+    },
+    {
+      title: 'Job Posting Website with React and Vite',
+      description: 'A job listing app built with React, Vite, and Tailwind, featuring CRUD operations and mock API integration with JSON Server.',
+      github: 'https://github.com/kvamsid/Job-Posting-Website-with-React-and-Vite',
+      techStack: ['React', 'Vite','Tailwind CSS'],
+      Live: 'https://job-posting-website-with-react-and-vite.vercel.app/',
     },
     {
       title: 'Feedback App using React',
